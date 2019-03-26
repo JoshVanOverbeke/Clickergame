@@ -1,3 +1,7 @@
+# Lord of the Rings Clicker Game!
+Link where you can play the game at:
+https://joshvanoverbeke.github.io/Clickergame/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
