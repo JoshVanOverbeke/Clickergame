@@ -1,8 +1,9 @@
 import React from "react";
 import FriendCard from "./components/FriendCard";
-// import Wrapper from "./components/Wrapper";
+import Wrapper from "./components/Wrapper";
 import friends from "./friends.json";
 import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
 import shuffle from 'shuffle-array';
 // import "./App.css";
 
@@ -48,18 +49,20 @@ class App extends React.Component {
           score={this.state.score}
           tScore={this.state.tScore}
         />
-        <h1 className="title">Friends List</h1>
-        {this.state.friends.map(
-          friend => <FriendCard 
-              key={friend.id}
-              id={friend.id}
-              name={friend.name}
-              location={friend.location}
-              occupation={friend.occupation}
-              image={friend.image}
-              handleClick={this.handleClick}
-            />
-        )}
+        <Jumbotron/>
+        <Wrapper>
+          {this.state.friends.map(
+            friend => <FriendCard 
+                key={friend.id}
+                id={friend.id}
+                name={friend.name}
+                location={friend.location}
+                occupation={friend.occupation}
+                image={friend.image}
+                handleClick={this.handleClick}
+              />
+          )}
+        </Wrapper>
       </div>
     );
   }
