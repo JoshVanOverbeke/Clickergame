@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Clickergame/static/js/runtime~main.ac64d874.js"
   },
   {
-    "revision": "b795f7c7229e53dce409",
-    "url": "/Clickergame/static/js/main.31e13d7f.chunk.js"
+    "revision": "e3fdeb406f4eec90df76",
+    "url": "/Clickergame/static/js/main.063c524b.chunk.js"
   },
   {
     "revision": "88048034b74e1a7b32d9",
     "url": "/Clickergame/static/js/2.599baac1.chunk.js"
   },
   {
-    "revision": "b795f7c7229e53dce409",
-    "url": "/Clickergame/static/css/main.fab3e142.chunk.css"
+    "revision": "e3fdeb406f4eec90df76",
+    "url": "/Clickergame/static/css/main.e419969b.chunk.css"
   },
   {
-    "revision": "393621e42584283011d37dea495c97dc",
+    "revision": "3ad143f23dbfb20eddf30cede5395322",
     "url": "/Clickergame/index.html"
   }
 ];

@@ -1,13 +1,13 @@
 {
-  "main.css": "/Clickergame/static/css/main.fab3e142.chunk.css",
-  "main.js": "/Clickergame/static/js/main.31e13d7f.chunk.js",
-  "main.js.map": "/Clickergame/static/js/main.31e13d7f.chunk.js.map",
+  "main.css": "/Clickergame/static/css/main.e419969b.chunk.css",
+  "main.js": "/Clickergame/static/js/main.063c524b.chunk.js",
+  "main.js.map": "/Clickergame/static/js/main.063c524b.chunk.js.map",
   "runtime~main.js": "/Clickergame/static/js/runtime~main.ac64d874.js",
   "runtime~main.js.map": "/Clickergame/static/js/runtime~main.ac64d874.js.map",
   "static/js/2.599baac1.chunk.js": "/Clickergame/static/js/2.599baac1.chunk.js",
   "static/js/2.599baac1.chunk.js.map": "/Clickergame/static/js/2.599baac1.chunk.js.map",
   "index.html": "/Clickergame/index.html",
-  "precache-manifest.74a1606b722a0cb37d059b51c3ab11ca.js": "/Clickergame/precache-manifest.74a1606b722a0cb37d059b51c3ab11ca.js",
+  "precache-manifest.57effea332c7643dc6cce0d7c6d5939c.js": "/Clickergame/precache-manifest.57effea332c7643dc6cce0d7c6d5939c.js",
   "service-worker.js": "/Clickergame/service-worker.js",
-  "static/css/main.fab3e142.chunk.css.map": "/Clickergame/static/css/main.fab3e142.chunk.css.map"
+  "static/css/main.e419969b.chunk.css.map": "/Clickergame/static/css/main.e419969b.chunk.css.map"
 }
