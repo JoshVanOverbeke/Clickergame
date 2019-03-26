@@ -1,7 +1,7 @@
 import React from "react";
-import FriendCard from "./components/FriendCard";
+import ImageCard from "./components/ImageCard";
 import Wrapper from "./components/Wrapper";
-import friends from "./friends.json";
+import lotr from "./lotr.json";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import shuffle from 'shuffle-array';
@@ -9,7 +9,7 @@ import shuffle from 'shuffle-array';
 
 class App extends React.Component {
   state={
-    friends: friends,
+    lotr: lotr,
     message: "Click an image to begin!",
     score: 0,
     tScore: 0,
@@ -40,8 +40,8 @@ class App extends React.Component {
   }
   
   render() {
-    shuffle(this.state.friends);
-    console.log(this.state.friends)
+    shuffle(this.state.lotr);
+    console.log(this.state.lotr)
     return (
       <div>
         <Navbar 
@@ -51,14 +51,12 @@ class App extends React.Component {
         />
         <Jumbotron/>
         <Wrapper>
-          {this.state.friends.map(
-            friend => <FriendCard 
-                key={friend.id}
-                id={friend.id}
-                name={friend.name}
-                location={friend.location}
-                occupation={friend.occupation}
-                image={friend.image}
+          {this.state.lotr.map(
+            character => <ImageCard 
+                key={character.id}
+                id={character.id}
+                name={character.name}
+                image={character.image}
                 handleClick={this.handleClick}
               />
           )}
